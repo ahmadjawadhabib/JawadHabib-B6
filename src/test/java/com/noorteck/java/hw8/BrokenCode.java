@@ -1,9 +1,9 @@
 package com.noorteck.java.hw8;
 
 public class BrokenCode {
-	package loops;
+	
 
-	public class BrokenCode {
+	
 
 		public static void main(String[] args) {
 			double tempOne = 84.7; // int don't take decimal number but double takes decimal number
@@ -56,13 +56,6 @@ public class BrokenCode {
 
 		}
 		}
-		
-	}
-		
-
-
-
-
 
 
 }
