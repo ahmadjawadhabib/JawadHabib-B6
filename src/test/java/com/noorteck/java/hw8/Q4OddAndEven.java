@@ -40,12 +40,37 @@ public class Q4OddAndEven {
 				// System.out.println(even);
 			} else {
 				odd = odd + a;
-				
+
 			}
 			a++;
 		}
-		System.out.println( "Even " +even);
-		System.out.println("Odd " +odd);
-	
+		System.out.println("Even " + even);
+		System.out.println("Odd " + odd);
+
+		System.out.println("------------------");
+
+		int z = 1;
+		int totalOfEven = 0;
+		int TotalOfOdd = 0;
+
+		do {
+			if (z % 2 == 0) {
+				totalOfEven = totalOfEven + z;
+
+			} else {
+				TotalOfOdd = TotalOfOdd + z;
+			}
+			//System.out.println(z);
+			z++;
+		} while (z <= 20);
+		
+		System.out.println("Even : " + totalOfEven);
+		System.out.println("Odd : " + TotalOfOdd);
 	}
+
 }
+
+
+
+
+

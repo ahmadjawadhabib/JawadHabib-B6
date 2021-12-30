@@ -9,20 +9,20 @@ public class Hurricane {
 			if (i > 74 && i < 95) {
 				System.out.println("Category 1 " + "Wind Speed :" + i);
 
-			} else if (i > 105 && i < 110) {
+			} else if (i >= 105 && i <= 110) {
 				System.out.println("Category 2 " + "Wind Speed :" + i);
 
-			} else if (i > 120 && i < 130) {
+			} else if (i >= 120 && i <= 130) {
 				System.out.println("Category 3 " + "Wind Speed :" + i);
 
-			} else if (i > 140 && i < 155) {
+			} else if (i >= 140 && i <= 155) {
 				System.out.println("Category 4 " + "Wind Speed :" + i);
 
-			} else if (i > 165 && i < 194) {
+			} else if (i >= 165 && i <= 194) {
 				System.out.println("Category 5 " + "Wind Speed :" + i);
 
 			} else {
-				System.out.println("Good Weather " + "Wind Speed :" + i);
+				System.out.println("Good Weather " + "Wind Speed :" +i);
 			}
 			// System.out.println(i);
 		}
