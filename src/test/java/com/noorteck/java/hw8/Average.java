@@ -6,7 +6,7 @@ public class Average {
 
 		int sum = 0;
 		int count = 0;
-		
+
 		for (int number = 20; number <= 30; number++) {
 
 			// System.out.println(number);
@@ -15,13 +15,13 @@ public class Average {
 			count++;
 
 		}
-		System.out.println("Sum " +sum);
-		System.out.println("Count "+count);
-		
-		int average = sum/ count;
-		
-		System.out.println("Average "+ average);
-		
+		System.out.println("Sum  :" + sum);
+		System.out.println("Count  :" + count);
+
+		int average = sum / count;
+
+		System.out.println("Average :" + average);
+
 	}
-	
+
 }
