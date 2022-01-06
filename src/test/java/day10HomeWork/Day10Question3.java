@@ -10,7 +10,7 @@ public class Day10Question3 {
   //Modifier    Returntype ,Method Name  ,int parameter 
 	public static void oddEven(int number) {
 
-		if (number % 2 == 0) {
+		if (number % 2 == 0) { // if statement 
 			System.out.println("Even number :  " + number);
 		} else {
 			System.out.println("Odd number : " + number);
