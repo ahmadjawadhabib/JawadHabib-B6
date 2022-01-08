@@ -18,7 +18,7 @@ public class Question4 {
 		} else if (valueOne > valueTwo) {
 			result = valueOne + valueTwo;
 
-		} else if (valueOne == valueTwo) {
+		} else if (valueOne == valueTwo ) {
 			result = valueOne + valueTwo + (valueOne * valueTwo);
 		}
 		return result;
